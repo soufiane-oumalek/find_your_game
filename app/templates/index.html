@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../static/style/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <title>home</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <input type="text">
+            <button>search</button>
+        </section>
+        <section class="games">
+            {% for game in games %}
+            <article class="art">
+                <img class="image" src='{{ game["thumbnail"] }}'>
+                <div class="title">
+                    <h1>{{ game["title"] }}</h1>
+                    <h3>{{ game["platform"] }}</h3>
+                </div>
+            </article>
+            {% endfor %}
+        </section>
+    </main>
+</body>
+
+</html>
