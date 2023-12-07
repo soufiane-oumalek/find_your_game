@@ -10,19 +10,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../static/script/search.js"> defer</script>
     <title>home</title>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="name"><img src="../static/images/gamepad.png"> FIND YOUR GAME</div>
+            <div class="search_icon"> <img class="icon" src="../static/icons/search_icon.png">
+                <div class="search_bar">
+                    <input id="game-input" type="text">
+                    <button>search</button>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
-        <section>
-            <input type="text">
-            <button>search</button>
-        </section>
-        <section class="games">
-            {% for game in games %}
+        {% for genre in games %}
+        <h4 class="genre">{{ genre }}</h4>
+        <section class=" games">
+            {% for game in games[genre] %}
             <article class="art">
-                <img class="image" src='{{ game["thumbnail"] }}'>
+                <a href='http://127.0.0.1:5000/{{ game["title"] }}'><img class="image"
+                        src='{{ game["thumbnail"] }}'></a>
                 <div class="title">
                     <h1>{{ game["title"] }}</h1>
                     <h3>{{ game["platform"] }}</h3>
@@ -30,6 +41,7 @@
             </article>
             {% endfor %}
         </section>
+        {% endfor %}
     </main>
 </body>
 

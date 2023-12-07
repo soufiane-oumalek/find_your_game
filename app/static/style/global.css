@@ -5,23 +5,85 @@ body {
     /* background-image: linear-gradient(rgba(32, 32, 51, 0.651), rgb(32, 32, 63)); */
     height: 100vh;
     font-family: 'Nova Square', sans-serif;
-    font-size: larger;
+    font-size: 15px;
     color: aliceblue;
 }
 
+
+nav {
+    background-color: rgb(94, 94, 105);
+    opacity: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: larger;
+}
+
+nav img {
+    width: 40px;
+}
+
+.search_icon {
+    text-align: right;
+    padding-right: 20px;
+    width: 2%;
+    margin-right: 10px;
+}
+
+.search_icon img {
+    width: 130%;
+    margin: 0;
+}
+
+.search_bar {
+    display: none;
+}
+
+.search_icon:hover {
+    width: 50%;
+
+    .icon {
+        display: none;
+    }
+
+}
+
+.search_icon:hover {
+    .search_bar {
+        display: inline;
+        width: 10%;
+    }
+}
+
+
 main {
     margin: 20px;
+    margin-top: 50px;
 }
 
 section {
-    opacity: 90%;
     background-color: rgba(32, 32, 51, 0.651);
     border-radius: 10px;
     width: 100%;
-    margin-bottom: 10%;
     display: flex;
     flex-direction: row;
 
+}
+
+.genre {
+    background-color: rgba(15, 247, 247, 0.582);
+    width: 10%;
+    margin: 10% 0 0 0;
+    border-radius: 0px 8px 0px 0px;
+    padding: 5px;
 }
 
 .games {
@@ -38,15 +100,15 @@ section {
 }
 
 input {
-    width: 90%;
-    background-color: transparent;
+    width: 30%;
+    background-color: rgba(32, 32, 51, 0.651);
     border: none;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
+    color: aliceblue;
 }
 
 button {
-    width: 10%;
     background-color: rgba(15, 247, 247, 0.582);
     border-radius: 10px;
     border: none;
@@ -55,19 +117,20 @@ button {
 }
 
 article {
+    opacity: 80%;
     width: 20%;
-    min-width: 400px;
+    min-width: 300px;
     margin: 10px;
     /* height: 50vh; */
     background-color: rgba(15, 247, 247, 0.582);
     border-radius: 10px;
     text-align: center;
+    border-left: solid rgba(15, 247, 247, 0.582);
 }
 
 
 article img {
     width: 100%;
-    box-shadow: 50%;
     border-radius: 10px;
     /* opacity: 70%; */
 }
@@ -76,6 +139,7 @@ article img {
 .title {
     display: none;
 }
+
 
 /* .art:hover {
 
@@ -89,7 +153,8 @@ article img {
     .title {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     }
 
+    opacity: 100%;
 }
