@@ -1,5 +1,6 @@
 from flask import Flask, render_template
-from functions.games import get_games, get_game
+from games import get_games, get_game
+
 
 app = Flask(__name__)
 app.url_map.strict_slashes = False

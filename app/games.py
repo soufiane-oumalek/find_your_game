@@ -24,4 +24,4 @@ def get_game(onegame):
         lower_title = game["title"].lower()
         if lower_name == lower_title.lower() or (lower_title.startswith(lower_name) and len(onegame) > 3):
             return game
-    return {"error": "this game doesn't exist"}
+    return {"error": "this game doesn't exist in our platform"}
