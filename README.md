@@ -8,6 +8,29 @@ Welcome to Game Finder Online, your ultimate solution for uncovering the gaming 
 
 Game Finder Online takes your gaming experience to the next level by simplifying the process of discovering new games. No more endless scrolling through various platforms – we've got you covered. Unleash the gamer in you with our personalized game recommendations.
 
+## HOW TO USE:
+To use Game Finder Online, follow these steps:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/soufiane-oumalek/find_your_game.git
+   ```
+2. **Navigate to the projet directory:**
+   ```bash
+        cd find_your_game
+   ```
+3. **Install Dependencies:**
+   ```bash
+        pip install requests, flask
+   ```
+4. **Run the App:**
+   ```bash
+        python3 route.py
+   ```
+
+5. **Explore and enjoy the experience:**
+
+
 ## Authors:
 
 This is a team project for ALX software engineering program by:
