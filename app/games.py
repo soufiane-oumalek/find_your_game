@@ -1,8 +1,10 @@
+# Import the 'requests'
 import requests
 
-
+# Function to retrieve a list of games grouped by genre
 def get_games():
     genres = {}
+    # API endpoint URL for fetching game data
     url = "https://www.freetogame.com/api/games?"
     games_list = requests.get(url).json()
     for i in range(0, 100):
@@ -15,8 +17,9 @@ def get_games():
             del genres[genre]
     return genres
 
-
+# Function to retrieve details about a specific game
 def get_game(onegame):
+    # API endpoint URL for fetching game data
     url = "https://www.freetogame.com/api/games?"
     games_list = requests.get(url).json()
     for game in games_list:
