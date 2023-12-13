@@ -30,7 +30,7 @@
   <main>
     {% if "error" in game %}
     <h1>
-      <center>{{ game["error"] }}</center>
+      <center>{{ game["error"] }} {{ game["name"] }}</center>
     </h1>
     {% else %}
     <section class="header">
