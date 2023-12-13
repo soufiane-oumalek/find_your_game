@@ -23,8 +23,9 @@ def get_game(onegame):
     url = "https://www.freetogame.com/api/games?"
     games_list = requests.get(url).json()
     for game in games_list:
+        onegame = onegame.replace("%20", " ")
         lower_name = onegame.lower()
         lower_title = game["title"].lower()
         if lower_name == lower_title.lower() or (lower_title.startswith(lower_name) and len(onegame) > 3):
             return game
-    return {"error": "this game doesn't exist in our platform", "name": onegame}
+    return {"error": "this game doesn't exist in our platform"}
