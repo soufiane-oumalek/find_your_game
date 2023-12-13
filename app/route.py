@@ -1,6 +1,6 @@
 #import models
 from flask import Flask, render_template
-from games import get_games, get_game
+from functions.games import get_games, get_game
 
 
 app = Flask(__name__)
