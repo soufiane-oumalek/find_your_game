@@ -3,7 +3,7 @@
 document.addEventListener('keydown', (event) => {
   let search = document.getElementById("game-input");
   if (event.key === 'Enter') {
-    window.location.href = `http://127.0.0.1:5000/${search.value}`
+    window.location.href = `https://game-finder-one.vercel.app/${search.value}`
   }
 })
 
