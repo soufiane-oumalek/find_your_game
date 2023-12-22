@@ -1,14 +1,24 @@
-<p align="center"># Game Finder Online: Discover Your Gaming Paradise!</p>
+<div style="text-align: center;">
+
+# Game Finder Online: Discover Your Gaming Paradise!
+
+</div>
+
+---
 
 Welcome to Game Finder Online, your ultimate solution for uncovering the gaming gems that match your preferences! Whether you're a seasoned gamer or just getting started, Game Finder Online is here to make your quest for the perfect game an enjoyable experience.
 
 ![Alt text](./app/static/images/gamepad.png)
 
 ## Overview
+---
+
 
 [Game Finder Online](https://game-finder-one.vercel.app/) takes your gaming experience to the next level by simplifying the process of discovering new games. No more endless scrolling through various platforms – we've got you covered. Unleash the gamer in you with our personalized game recommendations.
 
 ## HOW TO USE:
+---
+
 To use Game Finder Online, follow these steps:
 
 1. **Clone the Repository:**
@@ -31,6 +41,8 @@ To use Game Finder Online, follow these steps:
 5. **Explore and enjoy the experience:**
 
 ## Meet the Team
+---
+
 We are two enthusiasts gamers who bring a blend of passion, expertise, and a touch of humor to our coding adventures!
 
 - **Youssef Abouyahia** [@JoesephAb](https://twitter.com/JoesephAb) - Tech enthusiast, coding and hacking lover. Always up for a challenge, and I balance my passion for technology with daily gym sessions and swimming. Currently pursuing a degree in Software Engineering.
@@ -39,6 +51,8 @@ We are two enthusiasts gamers who bring a blend of passion, expertise, and a tou
 **Follow us on Twitter for more gaming and tech related awesomeness!**
 
 ## Blog Post
+---
+
 After the development phase, we each wrote a blog post to reflect on the Game Finder journey.
 
 - Joê-seph's Article: [Game Finder light version of Steam](https://medium.com/@Joe-seph/game-finder-light-version-of-steam-c579916d5acc)
@@ -47,12 +61,16 @@ After the development phase, we each wrote a blog post to reflect on the Game Fi
 Follow me on [Medium](https://medium.com/@Joe-seph) for a mix of tech, code, and financial tips all in one place. Let's learn together!
 
 ## Acknowledgments
+---
+
 
 - **Holberton School staff:** For support, advice, and resources.
 - **Cohort 13 and all Holberton students:** For friendship, support, and insight.
 - **YOU:** For reading this documentation and testing out PuppR. We hope you enjoyed the ride!
 
 ## Authors:
+---
+
 
 This is a team project for [ALX](https://www.alxafrica.com/) software engineering program in collaboration with  [Holberton School](https://www.holbertonschool.com/) by two young enthousiasts:
 
@@ -60,10 +78,14 @@ This is a team project for [ALX](https://www.alxafrica.com/) software engineerin
 - **SOUFIANE OUMALEK** - [Soufiane-oumalek](https://github.com/soufiane-oumalek)
 
 # License
+---
+
 
 [Game Finder Online](https://game-finder-one.vercel.app/) is licensed under the MIT License.
 
 # Related Projects
+---
+
 
 Explore some of our other projects:
 
