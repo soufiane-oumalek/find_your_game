@@ -1,4 +1,4 @@
-# Game Finder Online: Discover Your Gaming Paradise!
+<p align="center"># Game Finder Online: Discover Your Gaming Paradise!</p>
 
 Welcome to Game Finder Online, your ultimate solution for uncovering the gaming gems that match your preferences! Whether you're a seasoned gamer or just getting started, Game Finder Online is here to make your quest for the perfect game an enjoyable experience.
 
@@ -34,7 +34,7 @@ To use Game Finder Online, follow these steps:
 We are two enthusiasts gamers who bring a blend of passion, expertise, and a touch of humor to our coding adventures!
 
 - **Youssef Abouyahia** [@JoesephAb](https://twitter.com/JoesephAb) - Tech enthusiast, coding and hacking lover. Always up for a challenge, and I balance my passion for technology with daily gym sessions and swimming. Currently pursuing a degree in Software Engineering.
-- **Soufiane Oumalek**  [Soufiane](https://twitter.com/JoesephAb) - Explorer of the digital realm, fascinated by code and technology. A perpetual learner, always seeking new challenges and pushing the boundaries of innovation.
+- **Soufiane Oumalek**  [@Soufiane](https://twitter.com/JoesephAb) - Explorer of the digital realm, fascinated by code and technology. A perpetual learner, always seeking new challenges and pushing the boundaries of innovation.
 
 **Follow us on Twitter for more gaming and tech related awesomeness!**
 
@@ -42,7 +42,7 @@ We are two enthusiasts gamers who bring a blend of passion, expertise, and a tou
 After the development phase, we each wrote a blog post to reflect on the Game Finder journey.
 
 - Joê-seph's Article: [Game Finder light version of Steam](https://medium.com/@Joe-seph/game-finder-light-version-of-steam-c579916d5acc)
-- Soufiane's Article: [](https://medium.com/@calimerobeats3/871bf321977d)
+- Soufiane's Article: [Game Finder](https://medium.com/@calimerobeats3/871bf321977d)
 
 Follow me on [Medium](https://medium.com/@Joe-seph) for a mix of tech, code, and financial tips all in one place. Let's learn together!
 
@@ -54,7 +54,7 @@ Follow me on [Medium](https://medium.com/@Joe-seph) for a mix of tech, code, and
 
 ## Authors:
 
-This is a team project for ALX software engineering program by:
+This is a team project for [ALX](https://www.alxafrica.com/) software engineering program in collaboration with  [Holberton School](https://www.holbertonschool.com/) by two young enthousiasts:
 
 - **YOUSSEF ABOUYAHIA** - [Josh-techie](https://github.com/Josh-techie)
 - **SOUFIANE OUMALEK** - [Soufiane-oumalek](https://github.com/soufiane-oumalek)
