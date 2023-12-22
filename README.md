@@ -2,7 +2,7 @@
 
 Welcome to Game Finder Online, your ultimate solution for uncovering the gaming gems that match your preferences! Whether you're a seasoned gamer or just getting started, Game Finder Online is here to make your quest for the perfect game an enjoyable experience.
 
-![Alt text](image.png)
+![Alt text](./app/static/images/gamepad.png)
 
 ## Overview
 
